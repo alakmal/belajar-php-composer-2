@@ -1,17 +1,25 @@
 {
-    "name": "alakmal/belajar-php-composer-2",
-    "description": "Belajar PHP Composer",
-    "type": "project",
-    "autoload": {
-        "psr-4": {
-            "Alakmal\\BelajarPhpComposer2\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "alyouma",
-            "email": "alyoumaakmal4@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "alakmal/belajar-php-composer-2",
+  "description": "Belajar PHP Composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Alakmal\\BelajarPhpComposer2\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "alyouma",
+      "email": "alyoumaakmal4@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/alakmal/belajar-php-composer-library"
+    }
+  ],
+  "require": {
+    "alyou/belajar-php-composer-library": "2.0.0"
+  }
 }
